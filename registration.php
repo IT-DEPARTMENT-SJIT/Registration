@@ -5,7 +5,7 @@ $college=$_POST['college'];
 $mail=$_POST['mail'];
 $food=$_POST['food'];
 
-$link=mysqli_connect("localhost","admin","admin","reg_details");
+$link=mysqli_connect("localhost","#",#","#");
 if(!($link))
 {
   die(mysqli_connect_error());
